@@ -1,0 +1,104 @@
+# - - - - - - - - - - - - - - - -
+# General
+# - - - - - - - - - - - - - - - -
+
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# - - - - - - - - - - - - - - - -
+# Makefile
+# - - - - - - - - - - - - - - - -
+
+.lang
+.cmd
+main
+*.class
+
+# - - - - - - - - - - - - - - - -
+# Python
+# - - - - - - - - - - - - - - - -
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+venv/
+ENV/
+
+# - - - - - - - - - - - - - - - -
+# JavaScript / Node.js
+# - - - - - - - - - - - - - - - -
+
+dist/
+build/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# - - - - - - - - - - - - - - - -
+# Rust
+# - - - - - - - - - - - - - - - -
+
+target/
+Cargo.lock
+
+# - - - - - - - - - - - - - - - -
+# Go
+# - - - - - - - - - - - - - - - -
+
+bin/
+pkg/
+*.exe
+*.test
+
+# - - - - - - - - - - - - - - - -
+# C / C++
+# - - - - - - - - - - - - - - - -
+
+*.o
+*.obj
+*.out
+*.exe
+
+# - - - - - - - - - - - - - - - -
+# Java
+# - - - - - - - - - - - - - - - -
+
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# - - - - - - - - - - - - - - - -
+# IDEs / Editors
+# - - - - - - - - - - - - - - - -
+
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, CLion, PyCharm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# - - - - - - - - - - - - - - - -
+# OS-Generated
+# - - - - - - - - - - - - - - - -
+desktop.ini
+ehthumbs.db
